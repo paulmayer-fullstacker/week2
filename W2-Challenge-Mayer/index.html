@@ -4,41 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-1</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
   <header id="header">
-   <div class="heading center-items">
+    <div class="heading center-items">
      <h1>Step8Up</h1>
      <img src="./assets/images/step8up-logo.png" alt="Company Logo">
-  </div>
-     <nav class="navbar">
-     <a class="active" href="index.html">Home</a>
-     <a href="contact-form.html">Contact</a>
-   </nav> 
+    </div>
+    <nav class="navbar">
+       <a class="active" href="#home">Home</a>
+       <a href="#ethos">Ethos</a>
+       <a href="#projects">Projects</a>
+       <a href="#contact">Contact</a>      
+    </nav> 
   </header>
-  <main class="colour-transition-10f1">
-    <section>
-      <h2>Project-1</h2>
-      <p>This page has been intentionally left blank</p>
-      <p>Use the nav-bar to return to the Home page, or visit the Contact page.</p>
-
-    </section>
-    <section>
-      <!-- <div class="hover-panel">
-            Hover over me
-            <div class="panel">This is a hover panel!</div>
-           </div> -->
-
-    </section>
-    <section>
-
-    </section>
-  </main>
-  <footer class="colour-faded-out">
-
-  </footer>
-  </body>
+  
+  <section id="home">
+      <img src=".\assets\images\StepUp.PNG" alt="StepUp company banner page" class="banner-image">  
+      <!-- <div style="background-color: rgb(254, 164, 7); min-height: 100px;"></div> -->
+      <div class="colour-transition-div1">
+        <h2 id="ethos">Our Ethos</h2>
+        <p>General company information eventually turning focul upon recent sucess stories. 
+          The success stories will be referenced in the next section, where links will be provised to the specific project pages. 
+          Each project page with give a detailed description of an individual project.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. 
+          In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. 
+          Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. 
+          Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        <p>Nunc a imperdiet nisi, quis porta odio. Aenean mauris justo, malesuada eget dignissim quis, sollicitudin vitae est. 
+          Nunc sit amet dignissim ex, vitae laoreet nulla. Sed auctor et nibh ultricies ultrices. 
+          Vestibulum eu ipsum eleifend, dictum sapien et, consequat enim. Mauris blandit suscipit neque, sit amet malesuada lectus molestie vel. 
+          Sed aliquam commodo purus. Integer luctus ullamcorper lacus a tincidunt. Maecenas ullamcorper dui sed nibh molestie scelerisque. 
+          Maecenas interdum fringilla finibus. Nullam ut ex eu diam pharetra imperdiet. Suspendisse ultricies lacus enim, 
+          non lobortis arcu suscipit sit amet. Suspendisse vel ligula sem. </p>
+        <p>Take a look at some of our sucess stories. Click on the images below to visit our project pages. 
+          Learn about our customer focused design, delivery, and support strategies. Read testimonials from our satified customers 
+          and long-term service partners. </p>
+      </div>
+  </section>
+  <section id="projects">
+    <div class="container colour-transition-div2">
+      <a href="project-1-page.html" alt="Clickable image, link to Project-1 page" title="Click to learn more" class="box project1">
+          <h3>Project-1</h3>
+          <p>The quick brown fox jumpes over the lazy dog. 1234567890987654321
+            ryr ryr ryr ryr ryr ryr ryr ryr ryr ryr ryr .</p>
+       </a>  
+       <a href="project-2-page.html" alt="Clickable image, link to Project-2 page" title="Click to learn more" class="box project2">
+          <h3>Project-2</h3>
+          <p>The quick brown fox jumpes over the lazy dog. 1234567890987654321
+            ryr ryr ryr ryr ryr ryr ryr ryr ryr ryr ryr .</p>
+       </a>  
+       <a href="project-3-page.html" alt="Clickable image, link to Project-3 page" title="Click to learn more" class="box project3">
+          <h3>Project-3</h3>
+          <p>The quick brown fox jumpes over the lazy dog. 1234567890987654321
+            ryr ryr ryr ryr ryr ryr ryr ryr ryr ryr ryr .</p>
+       </a>  
+    </div>
+  </section>
+  <section class="contact-container">
+      <div class="contact-container-item shallow-item">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
+         <H2 id="contact">Contact</H2>
+         <p>If you'd like to get in touch, you can call, e-mail, or submit a contact form.</p>
+         <p>In all cases, your information will be held in confidence and won't be shared with third parties.</p>
+      </div>
+      <div class="contact-container-item shallow-item">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
+         <h3 id="contact-me">Contact Step8Up:</h3>
+         <p>Call: 01234 567 890</p>
+         <p>Mail: <a href="mailto:pmayer.devopseng@gmail.com"> Info@Step8Up.com </a></p>
+         <p>Submit a Contact <a href="contact-form.html" target="_blank">Form</a></p>
+      </div>
+  </section>
+  <div>
+    <br/>
+    <hr class="bottom-line">
+    <footer class="footer-container footer">
+      <div class="footer-container-item shallow-item">
+        <p>This website is a work of fiction.</p>
+        <p>Reference to actual persons, living or dead, or actual events, is purely coincidental.</p>
+        <p>No infrastructure of buildings were damaged during the creation of this website</p>
+      </div>
+      <div class="footer-container-item shallow-item">
+        <p>The content of this website is freely available for use, 
+        <br/>  modification, and distribution by anyone.</p>
+        <p>No license restrictions apply.</p>
+      </div>
+    </footer>
+  </div>
+  <br/>
+</body>
 </html>

@@ -20,11 +20,13 @@
   </header>
   <main class="colour-transition-10f1">
     <section>
+      <div>
       <h2>Contact Form</h2>
-      <p>This page has been intentionally left blank</p>
-      <p>Use the nav-bar to return to the Home page.</p>
+      <p>For further information or to provide feedback,</p>
+      <p>please submit our contact form.</p>
+      </div>
       <form method="post" action='https://contact-form.some-server.org'>
-      <fieldset class="honeydew-item">
+      <fieldset class="contact-form">
         <legend>Please complete the required information:</legend>
         <label for="name">Name: <input id="name" name="name" type="text" size="30" placeholder="Your Name" required /></label><br>
         <br>
@@ -34,7 +36,7 @@
         <br>
       </fieldset>
       <br>
-      <fieldset class="ivory-item">
+      <fieldset class="contact-form">
         <legend>Optional information:</legend>
         <label for="msg">Submit a message:
           <textarea id="msg" name="msg" rows="4" cols="36" placeholder="I like to discuss your availability for..."></textarea>
@@ -48,12 +50,23 @@
       <input type="submit" value="Submit" id="submit-form"/>
     </form>
     </section>
-    <hr class="bottom-line">
   </main>
-    <footer class="container footer">
-      <p>Your information is safe with us.</p>
-      <p>It will be held in confidence and won't be shared with third parties.</p>
-      <p>Unless requested, you won't receive marketing information or junk mail.</p>
+   <div>
+    <br/>
+    <hr class="bottom-line">
+    <footer class="footer-container footer">
+      <div class="footer-container-item shallow-item">
+        <p>Your information is safe with us.</p>
+        <p>It will be held in confidence and won't be shared with third parties.</p>
+        <p>Unless requested, you won't receive marketing information or junk mail.</p>
+      </div>
+      <div class="footer-container-item shallow-item">
+        <p>The content of this website is freely available for use, 
+        <br/>modification, and distribution by anyone.</p>
+        <p>No license restrictions apply.</p>
+      </div>
     </footer>
-  </body>
+  </div>
+  <br/>
+</body>
 </html>
