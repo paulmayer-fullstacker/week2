@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <header id="header">
+   <div class="heading center-items">
+     <h1>Step8Up</h1>
+     <img src="./assets/images/step8up-logo.png" alt="Company Logo">
+  </div>
+    <nav class="navbar">
+     <a class="active" href="index.html">Home</a>
+    </nav> 
+  </header>
+  <main class="colour-transition-10f1">
+    <section>
+      <h2>Contact Form</h2>
+      <p>This page has been intentionally left blank</p>
+      <p>Use the nav-bar to return to the Home page.</p>
+      <form method="post" action='https://contact-form.some-server.org'>
+      <fieldset class="honeydew-item">
+        <legend>Please complete the required information:</legend>
+        <label for="name">Name: <input id="name" name="name" type="text" size="30" placeholder="Your Name" required /></label><br>
+        <br>
+        <label for="email">Email: <input id="email" name="email" type="email" size="30" placeholder="me@gmail.com" required /></label><br>
+        <br>
+        <label for="phone-number">Phone Number: <input type="tel" id="phone" name="phone" placeholder="01234567890"  size="22" required></label><br>
+        <br>
+      </fieldset>
+      <br>
+      <fieldset class="ivory-item">
+        <legend>Optional information:</legend>
+        <label for="msg">Submit a message:
+          <textarea id="msg" name="msg" rows="4" cols="36" placeholder="I like to discuss your availability for..."></textarea>
+        </label><br>
+        <br>
+        <label for="marketing">
+        <input class="inline" id="marketing" type="checkbox" name="marketing" /> I'd like to receive marketing information via e-mail.
+        </label>
+      </fieldset>
+      <br>
+      <input type="submit" value="Submit" id="submit-form"/>
+    </form>
+    </section>
+    <hr class="bottom-line">
+  </main>
+    <footer class="container footer">
+      <p>Your information is safe with us.</p>
+      <p>It will be held in confidence and won't be shared with third parties.</p>
+      <p>Unless requested, you won't receive marketing information or junk mail.</p>
+    </footer>
+  </body>
+</html>
