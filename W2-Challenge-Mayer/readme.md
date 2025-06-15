@@ -19,7 +19,7 @@ The main page (index.html), fulfills the majority of challenge requirements. As 
 
 ### The Project Pages:
 
-The project pages have been left intentionally blanck, with minimal styling. The nav-bar on the project pages does function, allowing the user to return to the Home page.
+The project pages have been left intentionally blank, with minimal styling. The nav-bar on the project pages does function, allowing the user to return to the Home page.
 
 
 ### The Contact Form:
@@ -28,7 +28,7 @@ The Contact is intended to be functional and practical. The form is functional, 
 
 ### Poor Design Decisions
 
-Early on in the design, I decided to use a banner image after the nav-bar on the main page. The image, I ripped from the Step8Up website (assets\images\StepUp.PNG). This poor decision had a significant design impact, as it greatly complicated the mixing and matching of background colours in adjacent containers. In order to achieve the colour effect that I wanted, I was forced to employ multiple colour transitions (i.e., colour-transition-div1, colour-transition-div2). This pain can with no gain, as the banner image did not fulfill any of the design specifications.
+Early on in the design, I decided to use a banner image after the nav-bar on the main page. The image, I ripped from the Step8Up website (assets\images\StepUp.PNG). This poor decision had a significant design impact, as it greatly complicated the mixing and matching of background colours in adjacent containers. In order to achieve the colour effect that I wanted, I was forced to employ multiple colour transitions (i.e., colour-transition-div1, colour-transition-div2). This pain can with no gain, as the banner image did not fulfil any of the design specifications.
 
 Proving that it's never too late to $#!t-can a bad idea, at the eleventh hour, I decided to to remove the image and normalise the main page. The finished results of my poor decision can be seen at index-old.html.
 
